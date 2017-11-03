@@ -1,0 +1,179 @@
+﻿  LMListener.cpp
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(30): warning C4005: 'static': macro redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(24): note: see previous definition of 'static'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(36): warning C4005: 'static': macro redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(30): note: see previous definition of 'static'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(43): warning C4005: 'static': macro redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(36): note: see previous definition of 'static'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(103): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(103): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(113): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(113): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(123): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(123): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(134): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(134): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(144): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(144): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(153): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(153): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(163): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(163): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(172): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(172): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(182): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(182): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(256): error C2065: 'PI': undeclared identifier
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(381): error C2662: 'const Leap::Vector &Leap::Vector::zero(void)': cannot convert 'this' pointer from 'const Leap::Vector' to 'Leap::Vector &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(381): note: Conversion loses qualifiers
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(2889): error C2734: 'std::vector<bool,_Alloc>::EPSILON': 'const' object must be initialized if not 'extern'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(2998): note: see reference to class template instantiation 'std::vector<bool,_Alloc>' being compiled
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(2889): error C2086: 'const float std::vector<bool,_Alloc>::EPSILON': redefinition
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(2450): note: see declaration of 'std::vector<bool,_Alloc>::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(72): error C2071: 'Leap::Interface::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(382): error C2071: 'Leap::Pointable::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(424): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Pointable' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(424): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(555): error C2071: 'Leap::Arm::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(599): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Arm' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(599): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(790): error C2071: 'Leap::Bone::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(828): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Bone' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(828): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(947): error C2071: 'Leap::Finger::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(960): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Finger' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(960): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1007): error C2071: 'Leap::Tool::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1018): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Tool' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1018): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1553): error C2071: 'Leap::Hand::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1595): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Hand' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1595): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1845): error C2071: 'Leap::Gesture::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1833): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Gesture' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1833): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2443): error C2071: 'Leap::Device::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2385): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Device' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2385): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2485): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Device' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2485): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2591): error C2071: 'Leap::FailedDevice::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2553): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::FailedDevice' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2553): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2946): error C2071: 'Leap::Image::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2983): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Image' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2983): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(3951): error C2071: 'Leap::InteractionBox::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(3993): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::InteractionBox' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(3993): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4432): error C2071: 'Leap::Frame::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4477): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Frame' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4477): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4515): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Frame' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4515): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4525): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Frame' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4525): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4546): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Frame' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4546): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4753): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Config' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4753): note: Conversion loses qualifiers
+  LMExamlple.cpp
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(30): warning C4005: 'static': macro redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(24): note: see previous definition of 'static'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(36): warning C4005: 'static': macro redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(30): note: see previous definition of 'static'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(43): warning C4005: 'static': macro redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(36): note: see previous definition of 'static'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(103): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(103): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(113): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(113): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(123): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(123): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(134): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(134): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(144): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(144): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(153): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(153): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(163): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(163): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(172): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(172): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(182): error C2734: 'Leap::Vector::EPSILON': 'const' object must be initialized if not 'extern'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(182): error C2086: 'const float Leap::Vector::EPSILON': redefinition
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(92): note: see declaration of 'Leap::Vector::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(256): error C2065: 'PI': undeclared identifier
+d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(381): error C2662: 'const Leap::Vector &Leap::Vector::zero(void)': cannot convert 'this' pointer from 'const Leap::Vector' to 'Leap::Vector &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leapmath.h(381): note: Conversion loses qualifiers
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(2889): error C2734: 'std::vector<bool,_Alloc>::EPSILON': 'const' object must be initialized if not 'extern'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(2998): note: see reference to class template instantiation 'std::vector<bool,_Alloc>' being compiled
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(2889): error C2086: 'const float std::vector<bool,_Alloc>::EPSILON': redefinition
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(2450): note: see declaration of 'std::vector<bool,_Alloc>::EPSILON'
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(72): error C2071: 'Leap::Interface::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(382): error C2071: 'Leap::Pointable::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(424): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Pointable' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(424): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(555): error C2071: 'Leap::Arm::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(599): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Arm' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(599): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(790): error C2071: 'Leap::Bone::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(828): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Bone' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(828): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(947): error C2071: 'Leap::Finger::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(960): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Finger' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(960): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1007): error C2071: 'Leap::Tool::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1018): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Tool' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1018): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1553): error C2071: 'Leap::Hand::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1595): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Hand' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1595): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1845): error C2071: 'Leap::Gesture::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1833): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Gesture' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(1833): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2443): error C2071: 'Leap::Device::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2385): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Device' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2385): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2485): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Device' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2485): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2591): error C2071: 'Leap::FailedDevice::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2553): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::FailedDevice' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2553): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2946): error C2071: 'Leap::Image::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2983): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Image' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(2983): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(3951): error C2071: 'Leap::InteractionBox::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(3993): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::InteractionBox' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(3993): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4432): error C2071: 'Leap::Frame::EPSILON': illegal storage class
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4477): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Frame' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4477): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4515): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Frame' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4515): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4525): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Frame' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4525): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4546): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Frame' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4546): note: Conversion loses qualifiers
+d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4753): error C2662: 'void Leap::Interface::deleteCString(const char *)': cannot convert 'this' pointer from 'const Leap::Config' to 'Leap::Interface &'
+  d:\visualstudio_workspace\libraries\leapsdk\include\leap.h(4753): note: Conversion loses qualifiers
+  DTWExample.cpp
+d:\visualstudio_workspace\for 2015\grt_test\grt_test\dtwexample.cpp(21): fatal error C1083: Cannot open include file: 'GRT.h': No such file or directory
+  Generating Code...
