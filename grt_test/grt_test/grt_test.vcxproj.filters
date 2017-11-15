@@ -18,10 +18,16 @@
     <ClCompile Include="DTWExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LM_GestureDefine.cpp">
+    <ClCompile Include="TimeSeriesClassificationDataExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TimeSeriesClassificationDataExample.cpp">
+    <ClCompile Include="HMMContinuousExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVMExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassificationDataExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -101,6 +101,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\VisualStudio_workspace\Libraries\LeapDeveloperKit_3.2.0+45899_win\LeapSDK\lib\x86;D:\VisualStudio_workspace\Libraries\grt\build\tmp\Debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>Leap.lib;grt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
     </Link>
     <PostBuildEvent>
       <Command>
@@ -163,8 +165,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ClassificationDataExample.cpp" />
     <ClCompile Include="DTWExample.cpp" />
-    <ClCompile Include="LM_GestureDefine.cpp" />
+    <ClCompile Include="HMMContinuousExample.cpp" />
+    <ClCompile Include="SVMExample.cpp" />
     <ClCompile Include="TimeSeriesClassificationDataExample.cpp" />
   </ItemGroup>
   <ItemGroup>
