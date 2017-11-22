@@ -1,0 +1,20 @@
+# goal definition
+# angle for each joint is within 0:180
+Header header
+time created
+time received
+int16 wrist
+int16 thumb
+int16 index
+int16 middle
+int16 ring
+int16 pinky
+---
+#result definition
+# result is 0 = success, 1 = cancelled, 2 = failure
+int8 returnCode
+---
+#feedback
+# percent is 0:100
+int16 percent
+

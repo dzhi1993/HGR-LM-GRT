@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="leap_motion" name="sender" type="sender.py" output="screen" />
+    <node pkg="leapmotion" name="mysubscriber" type="mysubscriber" output="screen" />
+</launch>

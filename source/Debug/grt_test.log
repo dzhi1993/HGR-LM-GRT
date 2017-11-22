@@ -1,0 +1,54 @@
+﻿  SVMExample.cpp
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\kmeans\kmeans.h(141): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\kmeans\kmeans.h(150): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(354): note: see declaration of 'GRT::MLBase::loadModelFromFile'
+d:\visualstudio_workspace\libraries\grt\grt\classificationmodules\adaboost\adaboost.h(161): warning C4373: 'GRT::AdaBoost::setNullRejectionCoeff': virtual function overrides 'GRT::Classifier::setNullRejectionCoeff', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\classifier.h(238): note: see declaration of 'GRT::Classifier::setNullRejectionCoeff'
+d:\visualstudio_workspace\libraries\grt\grt\classificationmodules\anbc\anbc.h(173): warning C4373: 'GRT::ANBC::setNullRejectionCoeff': virtual function overrides 'GRT::Classifier::setNullRejectionCoeff', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\classifier.h(238): note: see declaration of 'GRT::Classifier::setNullRejectionCoeff'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\gaussianmixturemodels\gaussianmixturemodels.h(123): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\gaussianmixturemodels\gaussianmixturemodels.h(132): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(354): note: see declaration of 'GRT::MLBase::loadModelFromFile'
+d:\visualstudio_workspace\libraries\grt\grt\classificationmodules\knn\knn.h(207): warning C4373: 'GRT::KNN::setNullRejectionCoeff': virtual function overrides 'GRT::Classifier::setNullRejectionCoeff', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\classifier.h(238): note: see declaration of 'GRT::Classifier::setNullRejectionCoeff'
+d:\visualstudio_workspace\libraries\grt\grt\classificationmodules\mindist\mindist.h(157): warning C4373: 'GRT::MinDist::setNullRejectionCoeff': virtual function overrides 'GRT::Classifier::setNullRejectionCoeff', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\classifier.h(238): note: see declaration of 'GRT::Classifier::setNullRejectionCoeff'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\clustertree\clustertree.h(125): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\clustertree\clustertree.h(134): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(354): note: see declaration of 'GRT::MLBase::loadModelFromFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\hierarchicalclustering\hierarchicalclustering.h(217): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\hierarchicalclustering\hierarchicalclustering.h(226): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(354): note: see declaration of 'GRT::MLBase::loadModelFromFile'
+  ClassificationDataExample.cpp
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\kmeans\kmeans.h(141): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\kmeans\kmeans.h(150): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(354): note: see declaration of 'GRT::MLBase::loadModelFromFile'
+d:\visualstudio_workspace\libraries\grt\grt\classificationmodules\adaboost\adaboost.h(161): warning C4373: 'GRT::AdaBoost::setNullRejectionCoeff': virtual function overrides 'GRT::Classifier::setNullRejectionCoeff', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\classifier.h(238): note: see declaration of 'GRT::Classifier::setNullRejectionCoeff'
+d:\visualstudio_workspace\libraries\grt\grt\classificationmodules\anbc\anbc.h(173): warning C4373: 'GRT::ANBC::setNullRejectionCoeff': virtual function overrides 'GRT::Classifier::setNullRejectionCoeff', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\classifier.h(238): note: see declaration of 'GRT::Classifier::setNullRejectionCoeff'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\gaussianmixturemodels\gaussianmixturemodels.h(123): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\gaussianmixturemodels\gaussianmixturemodels.h(132): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(354): note: see declaration of 'GRT::MLBase::loadModelFromFile'
+d:\visualstudio_workspace\libraries\grt\grt\classificationmodules\knn\knn.h(207): warning C4373: 'GRT::KNN::setNullRejectionCoeff': virtual function overrides 'GRT::Classifier::setNullRejectionCoeff', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\classifier.h(238): note: see declaration of 'GRT::Classifier::setNullRejectionCoeff'
+d:\visualstudio_workspace\libraries\grt\grt\classificationmodules\mindist\mindist.h(157): warning C4373: 'GRT::MinDist::setNullRejectionCoeff': virtual function overrides 'GRT::Classifier::setNullRejectionCoeff', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\classifier.h(238): note: see declaration of 'GRT::Classifier::setNullRejectionCoeff'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\clustertree\clustertree.h(125): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\clustertree\clustertree.h(134): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(354): note: see declaration of 'GRT::MLBase::loadModelFromFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\hierarchicalclustering\hierarchicalclustering.h(217): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
+d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\hierarchicalclustering\hierarchicalclustering.h(226): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
+  d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(354): note: see declaration of 'GRT::MLBase::loadModelFromFile'
+d:\visualstudio_workspace\libraries\leapdeveloperkit_3.2.0+45899_win\leapsdk\include\leapmath.h(260): warning C4305: 'return': truncation from 'double' to 'float'
+  Generating Code...
+  grt_test.vcxproj -> D:\VisualStudio_workspace\For 2015\grt_test\Debug\grt_test.exe
+  grt_test.vcxproj -> D:\VisualStudio_workspace\For 2015\grt_test\Debug\grt_test.pdb (Full PDB)

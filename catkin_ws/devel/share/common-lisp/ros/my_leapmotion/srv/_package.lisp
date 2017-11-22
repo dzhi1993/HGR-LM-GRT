@@ -1,0 +1,10 @@
+(cl:defpackage my_leapmotion-srv
+  (:use )
+  (:export
+   "RESETCALIBRATION"
+   "<RESETCALIBRATION-REQUEST>"
+   "RESETCALIBRATION-REQUEST"
+   "<RESETCALIBRATION-RESPONSE>"
+   "RESETCALIBRATION-RESPONSE"
+  ))
+

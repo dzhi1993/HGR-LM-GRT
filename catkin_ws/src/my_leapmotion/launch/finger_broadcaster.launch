@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="leap_motion" name="sender" type="sender.py" output="screen" />
+    <node pkg="my_leapmotion" name="my_tf_broadcaster" type="leapmotion_tf_broadcaster"/>
+</launch>

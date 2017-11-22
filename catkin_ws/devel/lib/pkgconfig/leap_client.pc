@@ -1,0 +1,8 @@
+prefix=/home/dzhi/catkin_ws/devel
+
+Name: leap_client
+Description: Description of leap_client
+Version: 0.0.0
+Cflags: -I/home/dzhi/catkin_ws/devel/include -I/home/dzhi/catkin_ws/src/leap_client/include
+Libs: -L/home/dzhi/catkin_ws/devel/lib 
+Requires: message_runtime std_msgs geometry_msgs tf visualization_msgs

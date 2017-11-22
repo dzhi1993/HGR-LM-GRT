@@ -1,0 +1,8 @@
+prefix=/home/dzhi/catkin_ws/install
+
+Name: my_leapmotion
+Description: Description of my_leapmotion
+Version: 0.0.0
+Cflags: -I/home/dzhi/catkin_ws/install/include
+Libs: -L/home/dzhi/catkin_ws/install/lib 
+Requires: 

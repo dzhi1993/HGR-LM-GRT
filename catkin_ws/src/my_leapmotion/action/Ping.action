@@ -1,0 +1,11 @@
+#goal
+Header header
+string message
+---
+#result definition
+# result is 0 = success, 1 = cancelled, 2 = failure
+int8 returnCode
+---
+#feedback
+# percent is 0:100
+int16 percent
