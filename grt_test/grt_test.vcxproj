@@ -167,6 +167,7 @@
   <ItemGroup>
     <ClCompile Include="ANBCExample.cpp" />
     <ClCompile Include="ClassificationDataExample.cpp" />
+    <ClCompile Include="ClassificationDataExample_testData.cpp" />
     <ClCompile Include="DTWExample.cpp" />
     <ClCompile Include="HMMContinuousExample.cpp" />
     <ClCompile Include="KNNExample.cpp" />

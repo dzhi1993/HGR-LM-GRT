@@ -23,12 +23,12 @@ You should run this example with one argument pointing to the data you want to l
 #include "Leap.h"
 #include <iostream>
 
-//using namespace GRT;
-//using namespace std;
-//
-//const std::string fingerNames[] = { "Thumb", "Index", "Middle", "Ring", "Pinky" };
-//const std::string boneNames[] = { "Metacarpal", "Proximal", "Middle", "Distal" };
-//
+using namespace GRT;
+using namespace std;
+
+const std::string fingerNames[] = { "Thumb", "Index", "Middle", "Ring", "Pinky" };
+const std::string boneNames[] = { "Metacarpal", "Proximal", "Middle", "Distal" };
+
 //int main (int argc, const char * argv[])
 //{
 //	const string filename = "TrainingData_static_10numbers.grt";

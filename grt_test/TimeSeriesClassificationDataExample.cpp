@@ -1,16 +1,16 @@
 //You might need to set the specific path of the GRT header relative to your project
 // There are totally 63 dimensions will be used, including the hand's pitch, roll and yaw angles, arm's 
-//#include <GRT.h>
-////#include "LMListener.h"
-//#include "Leap.h"
-//#include "LeapMath.h"
-//
-//using namespace GRT;
-//using namespace std;
-//
-//const std::string fingerNames[] = { "Thumb", "Index", "Middle", "Ring", "Pinky" };
-//const std::string boneNames[] = { "Metacarpal", "Proximal", "Middle", "Distal" };
-//
+#include <GRT.h>
+//#include "LMListener.h"
+#include "Leap.h"
+#include "LeapMath.h"
+
+using namespace GRT;
+using namespace std;
+
+const std::string fingerNames[] = { "Thumb", "Index", "Middle", "Ring", "Pinky" };
+const std::string boneNames[] = { "Metacarpal", "Proximal", "Middle", "Distal" };
+
 //int main(int argc, const char * argv[])
 //{
 //	//Create a new instance of the TimeSeriesClassificationData
@@ -20,13 +20,10 @@
 //	trainingData.setNumDimensions(39);
 //
 //	//You can also give the dataset a name (the name should have no spaces)
-//	trainingData.setDatasetName("Gesture_Definition");
+//	trainingData.setDatasetName("10_Dynamic_Gestures");
 //
 //	//You can also add some info text about the data
-//	trainingData.setInfoText(
-//		"This data contains some basic gesture definition. There are 10 training sample time series per gesture. \
-//		The extracted feature includes the hand direction's rotations regarding x,y,z axis, palm's normal rotations \
-//		, and the position and direction of each finger.");
+//	trainingData.setInfoText("This data contains some basic gesture definition. There are 10 training sample time series per gesture.");
 //
 //	//Here you would record a time series, when you have finished recording the time series then add the training sample to the training data
 //	UINT gestureLabel;
@@ -143,66 +140,66 @@
 //
 //		}
 //	}
-//    
-//    //After recording your training data you can then save it to a file
-//    if( !trainingData.save( "DTWTrainingData_new.grt" ) ){
-//	    std::cout << "Failed to save dataset to file!\n";
-//	    return EXIT_FAILURE;
+//	
+//	//After recording your training data you can then save it to a file
+//	if( !trainingData.save( "DTWTrainingData_10_gestures.grt" ) ){
+//		std::cout << "Failed to save dataset to file!\n";
+//		return EXIT_FAILURE;
 //	}
-//    
-//    //This can then be loaded later
-//    if( !trainingData.load( "DTWTrainingData_new.grt" ) ){
+//	
+//	//This can then be loaded later
+//	if( !trainingData.load( "DTWTrainingData_10_gestures.grt" ) ){
 //		std::cout << "Failed to load dataset from file!\n";
 //		return EXIT_FAILURE;
 //	}
-//    
-//    //This is how you can get some stats from the training data
-//    string datasetName = trainingData.getDatasetName();
-//    string infoText = trainingData.getInfoText();
-//    UINT numSamples = trainingData.getNumSamples();
-//    UINT numDimensions = trainingData.getNumDimensions();
-//    UINT numClasses = trainingData.getNumClasses();
-//    
-//    std::cout << "Dataset Name: " << datasetName << endl;
-//    std::cout << "InfoText: " << infoText << endl;
-//    std::cout << "NumberOfSamples: " << numSamples << endl;
-//    std::cout << "NumberOfDimensions: " << numDimensions << endl;
-//    std::cout << "NumberOfClasses: " << numClasses << endl;
-//    
-//    //You can also get the minimum and maximum ranges of the data
-//    GRT::Vector< MinMax > ranges = trainingData.getRanges();
-//    
-//    std::cout << "The ranges of the dataset are: \n";
-//    for(UINT j=0; j<ranges.size(); j++){
-//        std::cout << "Dimension: " << j << " Min: " << ranges[j].minValue << " Max: " << ranges[j].maxValue << endl;
-//    }
-//    
-//    //If you want to split the dataset into a training dataset and a test dataset then you can use the split function
-//    //A value of 80 means that 80% of the original data will remain in the training dataset and 20% will be returned as the test dataset
-//    TimeSeriesClassificationData testData = trainingData.split( 80 );
-//    
-//    //If you have multiple datasets that you want to merge together then use the merge function
-//    if( !trainingData.merge( testData ) ){
+//	
+//	//This is how you can get some stats from the training data
+//	string datasetName = trainingData.getDatasetName();
+//	string infoText = trainingData.getInfoText();
+//	UINT numSamples = trainingData.getNumSamples();
+//	UINT numDimensions = trainingData.getNumDimensions();
+//	UINT numClasses = trainingData.getNumClasses();
+//	
+//	std::cout << "Dataset Name: " << datasetName << endl;
+//	std::cout << "InfoText: " << infoText << endl;
+//	std::cout << "NumberOfSamples: " << numSamples << endl;
+//	std::cout << "NumberOfDimensions: " << numDimensions << endl;
+//	std::cout << "NumberOfClasses: " << numClasses << endl;
+//	
+//	//You can also get the minimum and maximum ranges of the data
+//	GRT::Vector< MinMax > ranges = trainingData.getRanges();
+//	
+//	std::cout << "The ranges of the dataset are: \n";
+//	for(UINT j=0; j<ranges.size(); j++){
+//		std::cout << "Dimension: " << j << " Min: " << ranges[j].minValue << " Max: " << ranges[j].maxValue << endl;
+//	}
+//	
+//	//If you want to split the dataset into a training dataset and a test dataset then you can use the split function
+//	//A value of 80 means that 80% of the original data will remain in the training dataset and 20% will be returned as the test dataset
+//	TimeSeriesClassificationData testData = trainingData.split( 80 );
+//	
+//	//If you have multiple datasets that you want to merge together then use the merge function
+//	if( !trainingData.merge( testData ) ){
 //		std::cout << "Failed to merge datasets!\n";
 //		return EXIT_FAILURE;
 //	}
-//    
-//    //If you want to run K-Fold cross validation using the dataset then you should first spilt the dataset into K-Folds
-//    //A value of 10 splits the dataset into 10 folds and the true parameter signals that stratified sampling should be used
-//    if( !trainingData.spiltDataIntoKFolds( 10, true ) ){
+//	
+//	//If you want to run K-Fold cross validation using the dataset then you should first spilt the dataset into K-Folds
+//	//A value of 10 splits the dataset into 10 folds and the true parameter signals that stratified sampling should be used
+//	if( !trainingData.spiltDataIntoKFolds( 10, true ) ){
 //		std::cout << "Failed to spiltDataIntoKFolds!\n";
 //		return EXIT_FAILURE;
 //	}
-//    
-//    //After you have called the spilt function you can then get the training and test sets for each fold
-//    for(UINT foldIndex=0; foldIndex<10; foldIndex++){
-//        TimeSeriesClassificationData foldTrainingData = trainingData.getTrainingFoldData( foldIndex );
-//        TimeSeriesClassificationData foldTestingData = trainingData.getTestFoldData( foldIndex );
-//    }
-//    
-//    //If need you can clear any training data that you have recorded
-//    trainingData.clear();
-//    
+//	
+//	//After you have called the spilt function you can then get the training and test sets for each fold
+//	for(UINT foldIndex=0; foldIndex<10; foldIndex++){
+//		TimeSeriesClassificationData foldTrainingData = trainingData.getTrainingFoldData( foldIndex );
+//		TimeSeriesClassificationData foldTestingData = trainingData.getTestFoldData( foldIndex );
+//	}
+//	
+//	//If need you can clear any training data that you have recorded
+//	trainingData.clear();
+//	
 //	std::system("pause");
-//    return EXIT_SUCCESS;
+//	return EXIT_SUCCESS;
 //}

@@ -36,6 +36,9 @@
     <ClCompile Include="ANBCExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ClassificationDataExample_testData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LMListener.h">

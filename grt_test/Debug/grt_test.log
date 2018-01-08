@@ -1,4 +1,4 @@
-﻿  ANBCExample.cpp
+﻿  DTWExample.cpp
 d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\kmeans\kmeans.h(141): warning C4996: 'GRT::MLBase::saveModelToFile': saveModelToFile(std::fstream &file) is deprecated, use save(std::fstream &file) instead
   d:\visualstudio_workspace\libraries\grt\grt\coremodules\mlbase.h(340): note: see declaration of 'GRT::MLBase::saveModelToFile'
 d:\visualstudio_workspace\libraries\grt\grt\clusteringmodules\kmeans\kmeans.h(150): warning C4996: 'GRT::MLBase::loadModelFromFile': loadModelFromFile(std::fstream &file) is deprecated, use load(std::fstream &file) instead
